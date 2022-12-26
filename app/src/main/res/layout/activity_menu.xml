@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="600dp"
+    android:layout_height="760dp"
+    android:layout_gravity="center"
+    android:background="@drawable/back_menu"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/text_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="185dp"
+        android:text="Snow White"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/menu_BTN_startSlow"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:layout_toLeftOf="@id/menu_BTN_startFast"
+        android:text="SLOW"
+        android:layout_marginEnd="15dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/menu_BTN_startFast"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text="FAST"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/menu_BTN_startTilt"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/menu_BTN_startFast"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="320dp"
+        android:text="TILT"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/menu_BTN_recordsTable"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Top Ten"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_700"/>
+
+</RelativeLayout>
