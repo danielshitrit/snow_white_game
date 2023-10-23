@@ -1,4 +1,4 @@
-# mobile-applications-course
+# Snow White Game 
 
 The Game Snow White avoids the poisonous apples but gets a score for colliding with the dwarfs.
 
